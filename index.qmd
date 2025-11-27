@@ -1,0 +1,14 @@
+---
+title: "My Quarto Demo"
+format: html
+editor: visual
+---
+
+## Introduction
+
+This is my quarto portfolio for PSY6422.
+
+```{r}
+data(mtcars)
+plot(mtcars$hp, mtcars$mpg)
+```
